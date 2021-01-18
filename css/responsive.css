@@ -1,3 +1,12 @@
 @media ( min-width: 567px) and (max-width: 992px){
     
 }
+@media (max-width: 1200px){
+ 
+    .aboutus .about-right .title-center, .aboutus .about-right .title-center{
+        text-align: justify;
+    }
+    .aboutus .about-right button{
+        float: right;
+    }
+}
