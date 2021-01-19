@@ -1,5 +1,13 @@
 @media ( min-width: 567px) and (max-width: 992px){
-    
+    .news {
+        padding: 55px 0;
+    }
+    .customer {
+        padding: 55px 0 23px 0;     
+    }
+    .customer .title-customer {
+        padding: 0 0 80px 0;
+    }
 }
 @media (max-width: 1200px){
  

@@ -284,7 +284,7 @@ header::before{
 }
 .aboutus .about-left p::before{
     content: '';
-    background: url(".footer-top .mail input../images/Frame.svg") no-repeat center;
+    background: url("../images/Frame.svg") no-repeat center;
     padding: 50px;
     position: absolute;
     top: 30px;
@@ -528,6 +528,7 @@ header::before{
     text-transform: uppercase;
     color: #EE1F23;
 }
+
 .customer .partner img{
     width: 100%;
 }
@@ -573,8 +574,8 @@ header::before{
     color: #505050;
 }
 .slidercustomer .carousel-indicators{
-    bottom: 15%;
-    left: 50%;
+    bottom: 0vw;
+    left: 30vw;
     transform: translate(-90%, 5%);
 }
 .carousel-indicators li {   
@@ -685,12 +686,14 @@ header::before{
 .footer-top .mail p{
     padding-top: 20px;
 }
+.footer-top .mail input:first-child{
+    width: 90%;
+}
 .footer-top .mail input{
     background: #ECEFF4;
     border: 1px solid #CAD3DF;
     box-sizing: border-box;
-    padding: 5px;
-    width: 90%;
+    padding: 5px;    
 }
 .footer-top .mail .send{
     position: absolute;
