@@ -5,35 +5,54 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+
 	<link href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&family=Roboto&display=swap"
 		rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/animate.css">	
+	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/responsive.css">
+
 </head>
 
 <body>
 	<div class="container-fluid">
 		<header>
 			<section class="toolbar">
-				<div class="row">
+				<div class="row flex-column-reverse flex-md-row">
+					<div class="col-1 d-md-none">
+						<div class="hamberger-menu">
+							<div id="sidepanel" class="mysliderpanel">
+								<a href="">TRANG CHỦ</a>
+								<a href="">DỊCH VỤ</a>
+								<a href="">ALBUM ẢNH</a>
+								<a href="">CHỨNG NHẬN</a>
+								<a href="">LIÊN HỆ</a>
+								<a href="#" class="closebtn" onclick="closeNav()">×</a>
+							</div>
+							<button class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button>
+						</div>
+					</div>
 					<div class="col-5 text-center logo">
 						<div class="logoprimary">
 							<img src="./images/logo-1 1.png" alt="Zone">
 							<p>Materials Importer & Constructon</p>
 						</div>
 					</div>
-					<div class="col-7 d-flex align-items-center">
+
+					<div class="flex-row-reverse col-12 col-md-7 d-flex align-items-center">
 						<ul>
 							<li class="block">
 								<a href="#">
 									<img src="./images/Group 5661.svg" alt="">
 									<div class="detail">
-										<p>HOTLINE</p>
+										<p class="d-none d-lg-block">HOTLINE</p>
 										<p class="text-color">028 6652 3966</p>
 									</div>
 								</a>
@@ -42,7 +61,7 @@
 								<a href="#">
 									<img src="./images/Group 5660.svg" alt="">
 									<div class="detail">
-										<p>EMAIL</p>
+										<p class="d-none d-lg-block">EMAIL</p>
 										<p class="text-color">info@ozonejsc.vn</p>
 									</div>
 								</a>
@@ -51,7 +70,7 @@
 								<a href="#">
 									<img src="./images/Group 5662.svg" alt="">
 									<div class="detail">
-										<p>GIỜ LÀM VIỆC</p>
+										<p class="d-none d-lg-block">GIỜ LÀM VIỆC</p>
 										<p class="text-color">Mon. - Fri. 08AM - 18PM</p>
 									</div>
 								</a>
@@ -61,7 +80,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="sliderhero">
+			<section class="d-none d-md-block sliderhero">
 				<div class="row">
 					<div class="col-9 col-lg-7 offset-3 offset-lg-3">
 						<nav>
@@ -90,12 +109,13 @@
 			</section>
 			<section class="title-hero">
 				<div class="row py-4">
-					<div class="offset-2 col-8 offset-lg-2 py-5 col-lg-6 title-first wow fadeInUp" data-wow-duration="1s">
+					<div class="col-12 offset-md-2 col-md-8 offset-lg-1 py-5 col-lg-7 title-first wow fadeInUp"
+						data-wow-duration="1s">
 						<h1>THAY ĐỔI THÓI QUEN SỬ DỤNG VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</h1>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-8 offset-2 col-lg-5 title-second">
+					<div class="col-11 col-md-8 offset-md-2 offset-lg-1 col-lg-6 title-second">
 						<div class="row">
 							<section class="wow fadeInRigh">
 								<div class="col-12 wow fadeInLeft" data-wow-duration="1s">
@@ -112,9 +132,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-2 offset-lg-3 col-lg-1">
+					<div class="col-1 col-md-2 offset-lg-3 col-lg-1">
 						<div class="col-12 py-3 text-center"><img src="./images/Vector (10).svg" alt="twitter"></div>
-						<div class="col12 py-3 text-center"><img src="./images/Vector (11).svg" alt="facebook"></div>
+						<div class="col-12 py-3 text-center"><img src="./images/Vector (11).svg" alt="facebook"></div>
 						<div class="col-12 py-3 text-center"><img src="./images/Group.svg" alt="instagram"></div>
 					</div>
 				</div>
@@ -126,12 +146,16 @@
 		<main>
 			<section class="aboutus wow fadeInUp" data-wow-duration="1s">
 				<div class="row">
-					<div class="offset-1 col-10">
+					<div class="col-12 offset-sm-1 col-sm-10">
 						<div class="row">
 							<p class="title-top text-center d-xl-none">OZONE COMPANY</p>
-							<div class="col-8 offset-2 offset-xl-0 col-xl-6 about-left py-5 py-xl-0">								
+							<div
+								class="col-12 offset-sm-1 col-sm-10 col-lg-8 offset-lg-2 offset-xl-0 col-xl-6 about-left py-5 py-xl-0">
 								<img src="./images/Rectangle 319.png" alt="">
-								<p>VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</p>
+								<div class="title">
+									<p>VẬT LIỆU TỰ NHIÊN TRONG XÂY DỰNG DÂN DỤNG</p>
+									<img class="frameicon" src="./images/Frame.svg" alt="">
+								</div>
 							</div>
 							<div class="col-12 col-xl-6 about-right py-5 py-xl-0">
 								<p class="title-top d-xl-block d-none">OZONE COMPANY</p>
@@ -193,8 +217,10 @@
 									<div class="offset-1 col-11">
 										<h3>2. TÌM KIẾM VẬT LIỆU</h3>
 										<ul>
-											<li class="service-block-2"><a href="#">Tìm kiếm nhà cung cấp có sản phẩm phù hợp.</a></li>
-											<li class="service-block-2"><a href="#">Kiểm tra sản phẩm theo các tiêu chí của khách hàng.</a></li>
+											<li class="service-block-2"><a href="#">Tìm kiếm nhà cung cấp có sản phẩm
+													phù hợp.</a></li>
+											<li class="service-block-2"><a href="#">Kiểm tra sản phẩm theo các tiêu chí
+													của khách hàng.</a></li>
 										</ul>
 									</div>
 								</div>
@@ -392,7 +418,8 @@
 							<div class="offset-1 col-10 offset-sm-0 col-sm-4 col-lg-2 text-center">
 								<img src="./images/img3.png" alt="">
 							</div>
-							<div class="offset-1 col-10 offset-sm-0 offset-sm-2 offset-lg-0 col-sm-4 col-lg-2 text-center">
+							<div
+								class="offset-1 col-10 offset-sm-0 offset-sm-2 offset-lg-0 col-sm-4 col-lg-2 text-center">
 								<img src="./images/img4.png" alt="">
 							</div>
 							<div class="offset-1 col-10 offset-sm-0 col-sm-4 col-lg-2 text-center">

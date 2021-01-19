@@ -1,4 +1,35 @@
-@media ( min-width: 567px) and (max-width: 992px){
+
+@media (max-width: 1200px){
+ 
+    .aboutus .about-right .title-center, .aboutus .about-right .title-center{
+        text-align: justify;
+    }
+    .aboutus .about-right button{
+        float: right;
+    }
+    .aboutus {
+        padding: 60px 0 115px 0;
+    }
+    .aboutus .about-left p{
+        background: blue;
+        width: 30vw;
+        position: absolute;
+        padding: 2vw 1vw 2vw 6vw;
+        font-family: 'Mulish', sans-serif;
+        line-height: 3vw;
+        color: #F8F8F8;
+        right: 7vw;
+        bottom: 3vw;
+    }
+    .aboutus .about-left .frameicon{
+        width: 6vw;
+        height: 6vw;
+        bottom: 6vw;
+        left: 14.7vw
+    }
+
+}
+@media ( min-width: 768px) and (max-width: 992px){
     .news {
         padding: 55px 0;
     }
@@ -8,8 +39,175 @@
     .customer .title-customer {
         padding: 0 0 80px 0;
     }
+    .title-hero{
+        padding-bottom: 80px;
+    }
+    .title-hero .title-first{
+        padding-top: 2vw !important;
+    }
+    .title-hero .title-first h1{
+        text-align: center;
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    .title-hero .title-second p{
+        text-align: justify;
+    }
+    .toolbar .block .text-color{
+        font-size: 1.5vw;
+    }
+    .toolbar .block img{
+        width: 2vw;
+        height: 2vw;
+    }
+    .sliderhero::before{
+        height: 5.6vw;
+    }
+    .toolbar .logoprimary p{
+        font-size: 1.3vw;
+    }
+    .toolbar .logo img{
+        width: 11vw;
+    }
+    .sliderhero::after{
+        height: 5.6vw;
+    }
+    .aboutus .about-left img {
+        width: 63vw;
+    }
+    .aboutus .about-left .frameicon {
+        width: 5vw;
+        height: 5vw;
+        bottom: 8vw;
+        left: 28.3vw;
+    }
 }
-@media (max-width: 1200px){
+@media (max-width: 767px){
+    .sliderhero::before{
+        display: none;
+    }
+    .sliderhero::after{
+        display: none;
+    }
+    .toolbar .logo img{
+        width: 18vw;
+    }
+    .toolbar .logoprimary{
+        position: relative;
+        transform: none;
+        left: 0;
+        width: 40vw;
+    }
+    .toolbar .logoprimary p{
+        font-size: 2.1vw;
+    }
+    .toolbar ul{
+        padding: 10px;
+    } 
+    .toolbar .block img{
+        width: 2.9vw;
+        height: 2.9vw;
+    }
+    .toolbar .block .text-color{
+        font-size: 2.5vw;
+    }
+    .toolbar .block .detail{
+        padding-left: 10px;
+    }
+    .openbtn{
+        display: inline-block;
+        top: 12vw;
+    }
+    .hamberger-menu{
+        display: inline;
+    }    
+    .hamberger-menu .openbtn{
+        cursor: pointer;
+    }
+    .mysliderpanel{
+        top: 0px;
+        right: 0;
+        position: fixed;
+        width: 0;
+        background: #000;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        animation: 0.5s;
+        transition: 0.5s;
+    }
+    .mysliderpanel a:first-child{
+        margin-top: 30px;
+    }
+    .mysliderpanel a:last-child{
+        padding: 0 5px;
+        font-size: xx-large;
+    }
+    .mysliderpanel a{
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px 10px 50px;
+        cursor: pointer;    
+    }
+    .mysliderpanel a:hover{
+        background: rgb(39, 38, 38);
+    }
+    .mysliderpanel .closebtn{
+        position: absolute;        
+    }
+    .title-hero .title-first h1{
+        text-align: center;
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    .title-hero .viewmore{
+        text-align: center;
+    }
+    .title-hero{
+        padding-bottom: 40px;
+    }
+    .aboutus .about-left{
+        padding: 0;
+    }
+    .aboutus .about-left img {
+        width: 63vw;
+    } 
+    .aboutus .about-left p {  
+        width: 36vw;
+    }
+    .aboutus .about-left .frameicon {
+        width: 6vw;
+        height: 6vw;
+        bottom: 8vw;
+        left: 21.5vw;
+    }
+   
+}
+@media (max-width: 576px){
+    .aboutus .about-left img{
+        width: 100%;
+        padding: 0;
+    }
+    .aboutus .about-left p {
+
+        line-height: 4.5vw;
+    }
+    .aboutus .about-left .frameicon{
+
+    }
+    .aboutus .about-left p {
+        width: 50vw;
+        bottom: 8vw;
+    }
+    .aboutus .about-left .frameicon {
+        width: 8vw;
+        height: 8vw;
+        bottom: 16vw;
+        left: 34.5vw;
+    }
+}
+
+@media (max-width: 992px){
  
     .aboutus .about-right .title-center, .aboutus .about-right .title-center{
         text-align: justify;

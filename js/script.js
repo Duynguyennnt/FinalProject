@@ -20,3 +20,10 @@ $('header::before').click(function () {
 function fn() {
   document.getElementsByTagName('section')[5].scrollIntoView();  
 }
+function closeNav() {
+  document.getElementById("sidepanel").style.width = "0";
+}
+function openNav() {
+  document.getElementById("sidepanel").style.width = "250px";
+  document.getElementById("sidepanel").style.zIndex = "999";
+}
