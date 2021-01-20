@@ -652,8 +652,7 @@ header::before{
     position: relative;
 }
 .contact .move-top a{
-    top: 0;
-    position: absolute;
+  
 }
 /* footer */
 .footer-top {
