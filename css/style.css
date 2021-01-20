@@ -248,6 +248,9 @@ header::before{
     line-height: 22px;
     color: #F8F8F8;
 }
+.title-hero .title-second .viewmore button:hover{
+    margin-left: 20px;
+}
 .title-hero .title-second .viewmore button{
     background: #EE1F23;
     color: #FFFFFF;
@@ -258,6 +261,7 @@ header::before{
     padding: 14px 75px 14px 51px;
     border: none;
     position: relative;
+    transition: 0.7s;
 }
 .title-hero .title-second .viewmore button::after{
     content: '';
@@ -361,6 +365,9 @@ header::before{
     color: #303030;
     padding-bottom: 30px;
 }
+.aboutus .about-right button:hover{
+    margin-left: 20px;
+}
 .aboutus .about-right button{
     background: #EE1F23;
     color: #FFFFFF;
@@ -371,6 +378,7 @@ header::before{
     padding: 14px 75px 14px 51px;
     border: none;
     position: relative;
+    transition: 0.7s;
 }
 .aboutus .about-right button::after{
     content: '';
