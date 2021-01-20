@@ -28,19 +28,31 @@
         left: 14.7vw
     }
     .contact{
-        padding: 10px 0 80px 0;
+        padding: 10px 0 40px 0;
     }
-
+    .slidercustomer .information{
+        text-align: justify;
+    }
+    .customer .title-customer{
+        padding-top: 40px;
+    }
+    .slidercustomer .carousel-indicators {
+        bottom: -2vw;
+        left: 29vw;
+    }
+    .customer .title-customer{
+        padding: 0 0 50px 0;
+    }   
 }
 @media ( min-width: 768px) and (max-width: 992px){
     .news {
         padding: 55px 0;
     }
     .customer {
-        padding: 55px 0 23px 0;     
+        padding: 20px 0 23px 0;     
     }
     .customer .title-customer {
-        padding: 0 0 80px 0;
+        padding: 50px 0 40px 0;
     }
     .title-hero{
         padding-bottom: 80px;
@@ -84,8 +96,30 @@
         bottom: 8vw;
         left: 28.3vw;
     }
+    .customer .title-customer {
+        padding: 20px 0 23px 0;
+    }
+    .slidercustomer .carousel-indicators {
+        bottom: -2vw;
+        left: 37vw;
+    }
 }
 @media (max-width: 767px){
+    .customer .title-customer{
+        padding: 20px 0 50px 0;
+    }
+    .customer{
+        padding-bottom: 20px;
+    }
+    .footer-top h4{
+        padding: 10px;
+    }
+    .footer-top{
+        padding: 20px 0;
+    }
+    .footer-bottom ul li{
+        padding: 20px;
+    }
     .sliderhero::before{
         display: none;
     }
@@ -119,7 +153,7 @@
     }
     .openbtn{
         display: inline-block;
-        top: 12vw;
+        top: 14vw;
     }
     .hamberger-menu{
         display: inline;
@@ -199,6 +233,16 @@
     .footer-top .logo-footer{
         text-align: center;
     }
+    .slidercustomer .carousel-indicators{
+        left: 44vw;
+        bottom: -6vw;
+    }
+    .customer h3{
+        font-size: 6vw;
+    }
+    .customer span{
+        font-size: 2vw;
+    }
 }
 @media (max-width: 576px){
     .aboutus .about-left img{
@@ -218,9 +262,9 @@
     }
     .aboutus .about-left .frameicon {
         width: 8vw;
-    height: 8vw;
-    bottom: 16vw;
-    left: 40vw;
+        height: 8vw;
+        bottom: 16vw;
+        left: 34vw;
     }   
     .contact{
         padding-bottom: 30px;
@@ -233,7 +277,26 @@
     }
     .footer-top .mail{
         text-align: center;
+        padding: 0 !important;
+    }   
+    .category{
+        padding: 30px 0 !important;
     }
+    .footer-top .mail{
+
+    }
+    .footer-top .mail input:first-child{
+        width: 60%;
+    }
+    .footer-top .mail p{
+        padding: 10px;
+    }
+    .slidercustomer{
+        padding: 0;
+    }
+    .customer .title-customer{
+        padding: 0 0 50px 0;
+    }    
 }
 
 @media (max-width: 992px){

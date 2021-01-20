@@ -535,7 +535,7 @@ header::before{
 }
 /* customer */
 .customer{
-    padding: 110px 0 47px 0;
+    padding: 11px 0 47px 0;
     background: url("../images/bgclinet.png") no-repeat;
     background-size: cover;
 }
@@ -561,7 +561,7 @@ header::before{
     width: 100%;
 }
 .customer .title-customer{
-    padding: 0 0 170px 0;
+    padding: 110px 0 170px 0;
 }
 .slidercustomer{
  padding-top: 38px;
@@ -605,15 +605,17 @@ header::before{
     bottom: 0vw;
     left: 30vw;
     transform: translate(-90%, 5%);
+    align-items: center;
 }
-.carousel-indicators li {   
-    width: 7px;
+.carousel-indicators li {
+    width: 10px;
     border-radius: 100%;
-    height: 7px;
+    height: 10px;
+    background-color: #727272;
 }
 .carousel-indicators .active{
     background-color: red;
-
+    border: .5px solid blue;
 }
 /* contact */
 .contact{
