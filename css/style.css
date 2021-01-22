@@ -106,7 +106,7 @@ header::before{
 }
 .toolbar ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     padding: 20px 0;
 }
@@ -282,6 +282,7 @@ header::before{
     transform: translate(-50%, -5px);
     cursor: pointer;
 }
+
 /* main */
 .aboutus {
     padding: 100px 0 115px 0;
@@ -389,6 +390,7 @@ header::before{
     top: 0;
     right: 0;
 }
+
 /* news */
 .service{
     background: url("../images/bgnews.png") no-repeat;
@@ -444,6 +446,32 @@ header::before{
     left: -20px;
     border-radius: 100%;
     top: 10px;  
+}
+.service .service-block-3 a::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    background-color: #000;
+    left: -20px;
+    border-radius: 100%;
+    top: 10px;  
+}
+.service .block-hover:hover{
+    cursor: pointer;
+    background-color: #265BC5;
+    transition: .7s;
+}
+.service .block-hover:hover a::before {
+   
+    background-color: #fff;
+   
+}
+.service .block-hover:hover a{
+    color: #fff;
+}
+.service .block-hover:hover h3{
+    color: #fff;
 }
 .news{
     padding: 110px 0;

@@ -245,6 +245,15 @@
     }
 }
 @media (max-width: 576px){
+    .aboutus .about-right{
+        padding-left: 12px;
+    }
+    .news h3{
+        font-size: 35px;
+    }
+    .aboutus .about-right .title-bottom{
+        padding-bottom: 20px;
+    }
     .aboutus .about-left img{
         width: 100%;
         padding: 0;
@@ -306,5 +315,26 @@
     }
     .aboutus .about-right button{
         float: right;
+    }
+}
+@media (min-width: 1200px){
+    .aboutus .about-left .frameicon{
+        width: 4vw;
+        height: 4vw;
+        position: absolute;
+        bottom: 2vw;
+        left: 14.7vw;
+    
+    }
+    .aboutus .about-left p{
+        width: 20vw;
+        position: absolute;
+        padding: 43px 18px 50px 68px;
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+        line-height: 2vw;
+        color: #F8F8F8;
+        right: 5vw;
+        bottom: -1vw;
     }
 }
