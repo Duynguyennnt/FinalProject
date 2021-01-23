@@ -11,7 +11,7 @@
         padding: 60px 0 115px 0;
     }
     .aboutus .about-left p{
-        background: blue;
+        background: #265BC5;
         width: 30vw;
         position: absolute;
         padding: 2vw 1vw 2vw 6vw;
@@ -20,6 +20,7 @@
         color: #F8F8F8;
         right: 7vw;
         bottom: 3vw;
+        font-size: 2.5vw;
     }
     .aboutus .about-left .frameicon{
         width: 6vw;
@@ -42,7 +43,26 @@
     }
     .customer .title-customer{
         padding: 0 0 50px 0;
-    }   
+    } 
+    .aboutus .about-right .title-top, .title-top{
+        margin-bottom: 10px;
+    }  
+    .aboutus .about-right h2{
+        margin-bottom: 15px;
+    }
+    .aboutus .about-right .title-center{
+        margin-bottom: 10px;
+    }
+    .aboutus .about-right .title-bottom{
+        margin-bottom: 35px;
+    }
+    .contact .contacts{
+        flex-direction: column;
+    }
+
+    .contact .contacts .title p{
+        padding-bottom: 30px;
+    }
 }
 @media ( min-width: 768px) and (max-width: 992px){
     .news {
@@ -94,7 +114,7 @@
         width: 5vw;
         height: 5vw;
         bottom: 8vw;
-        left: 28.3vw;
+        left: 28.7vw;
     }
     .customer .title-customer {
         padding: 20px 0 23px 0;
@@ -154,13 +174,11 @@
     .openbtn{
         display: inline-block;
         top: 14vw;
+        cursor: pointer;
     }
     .hamberger-menu{
         display: inline;
-    }    
-    .hamberger-menu .openbtn{
-        cursor: pointer;
-    }
+    }       
     .mysliderpanel{
         top: 0px;
         right: 0;
@@ -170,8 +188,8 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        animation: 0.5s;
-        transition: 0.5s;
+        animation: 1s;
+        transition: 1s;
     }
     .mysliderpanel a:first-child{
         margin-top: 30px;
@@ -209,14 +227,21 @@
     .aboutus .about-left img {
         width: 63vw;
     } 
-    .aboutus .about-left p {  
+    .aboutus .about-left p {
         width: 36vw;
+        bottom: -1vw;
+        font-size: 2.3vw;
+        line-height: 3vw;
+        right: 6vw;
     }
     .aboutus .about-left .frameicon {
-        width: 6vw;
+        width: 7vw;
         height: 6vw;
-        bottom: 8vw;
-        left: 21.5vw;
+        bottom: 4vw;
+        left: 21.6vw;
+    }
+    .aboutus .about-right{
+        padding-top: 30px;
     }
     .service{
         padding: 50px 0;
@@ -244,6 +269,7 @@
         font-size: 2vw;
     }
 }
+
 @media (max-width: 576px){
     .aboutus .about-right{
         padding-left: 12px;
@@ -260,20 +286,24 @@
     }
     .aboutus .about-left p {
 
-        line-height: 4.5vw;
-    }
+line-height: 6.5vw;
+
+}
     .aboutus .about-left .frameicon{
 
     }
     .aboutus .about-left p {
-        width: 50vw;
-        bottom: 8vw;
+        width: 49vw;
+        font-size: 4vw;
+        bottom: -1vw;
+        line-height: 5vw;
+        right: 5vw;
     }
     .aboutus .about-left .frameicon {
         width: 8vw;
         height: 8vw;
-        bottom: 16vw;
-        left: 34vw;
+        bottom: 7vw;
+        left: 36.5vw;
     }   
     .contact{
         padding-bottom: 30px;
@@ -299,13 +329,34 @@
     }
     .footer-top .mail p{
         padding: 10px;
+        display: inline-block;
     }
     .slidercustomer{
         padding: 0;
     }
     .customer .title-customer{
         padding: 0 0 50px 0;
-    }    
+    }  
+    .footer-top h3{
+        float: left;
+    }  
+    .title-hero .title-first h1{
+        font-size: 20px;
+    }
+    .footer-top ul{
+        padding: 0;
+        width: 100%;
+        display: inline-block;
+    }
+    .logo-footer img{
+        width: 24vw;
+    }
+    .openbtn{
+        
+    }
+    .toolbar .block .text-color{
+        font-size: 2.6vw;
+    }
 }
 
 @media (max-width: 992px){
@@ -319,22 +370,29 @@
 }
 @media (min-width: 1200px){
     .aboutus .about-left .frameicon{
-        width: 4vw;
-        height: 4vw;
+        width: 4.5vw;
+        height: 4.5vw;
         position: absolute;
-        bottom: 2vw;
-        left: 14.7vw;
-    
+        bottom: 3vw;
+        left: 10.2vw;
     }
     .aboutus .about-left p{
-        width: 20vw;
+        width: 25vw;
         position: absolute;
-        padding: 43px 18px 50px 68px;
+        padding: 2vw 3vw;
         font-family: 'Mulish', sans-serif;
-        font-size: 20px;
-        line-height: 2vw;
+        font-size: 1.6vw;
+        line-height: 2.5vw;
         color: #F8F8F8;
-        right: 5vw;
-        bottom: -1vw;
+        right: 4vw;
+        bottom: -1.5vw;
+    }
+}
+@media (max-width: 480px){
+    .toolbar .contact-top{
+        display: none !important;
+    }
+    .openbtn {    
+        top: 7vw;
     }
 }
