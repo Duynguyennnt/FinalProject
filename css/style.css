@@ -365,8 +365,9 @@ header::before{
 .aboutus .about-right h2{
     font-family: 'Mulish', sans-serif;
     font-size: 42px;
-    line-height: 49px;    
-    color: #303030; 
+    line-height: 49px;
+    color: #303030;
+    font-weight: 700;
 }
 .aboutus .about-right button:hover{
     margin-left: 20px;
